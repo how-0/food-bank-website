@@ -1,0 +1,127 @@
+.fb{
+padding-left: var 15px;
+padding-right: var 15px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.shape1{
+width:50%;
+height:300px;
+background-color:#FF7F50;
+margin-left:200px;
+margin-top:80px;
+}
+
+
+.shape2{
+width:50%;
+height:180px;
+background-color:#FF7F50;
+margin-left:800px;
+}
+
+.txt{
+text-align: center;
+}
+
+/*
+.span {
+	font-size: 32px;
+}
+
+.span b {
+	font size:18px; font-weight:normal
+}
+
+
+.p.gfg{
+	word-break: break-word;
+}
+
+ 
+.txtlink{
+cursor:pointer;
+}
+*/
+
+.mapicon{
+font-size:24px;
+display:inline-block;
+}
+
+.align1{
+	display:inline-block;
+}
+
+.content{
+display:flex;
+justify-content:space-between;
+width:100%;
+}
+
+.p{
+cursor:pointer;
+}
+
+/*navigation bar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size:25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: black;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+}
+
+#search {
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 9px;
+    border-style: 5 px solid #fff;
+	border: 1px solid #ccc;
+	width: 200px;
+	margin-top:20px;
+}
+
+.background {
+    background: grey;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.login{
+	float:right;
+	color:white;
+	padding:20px;
+	margin: 10px;
+	height: 15px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

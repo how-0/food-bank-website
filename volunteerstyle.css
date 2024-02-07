@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+  margin: 0; 
+  padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size:25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: black;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+}
+
+#search {
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 9px;
+    border-style: 5 px solid #fff;
+	width:200px;
+	margin-top:20px;
+	border: 1px solid #ccc;
+}
+
+.background {
+    background: grey;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.login{
+            float:right;
+            color:white;
+            padding:20px;
+            margin: 10px;
+            height: 15px;
+        }
+
+.container{
+    padding:2px;
+    margin: 10px;
+}
+
+.descr{
+	text-align:center;
+	margin: 0px 200px 0px 200px;
+	font-size : 18px;
+	font-family: 'Poppins', sans-serif;
+}
+        
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 100%;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #D3D3D3;
+}
+
+input[type=reset]:hover {
+  background-color: #D3D3D3;
+}
+
+.center-form{
+justify-content: center;
+display: flex;
+margin: 40px 300px;
+border: 3px solid black;
+padding: 30px;
+}
+
+fieldset{
+	margin-bottom:30px;
+}
